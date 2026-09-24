@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3C15E73F85430A959763C2 /* SpottedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988D83C9A364CAB839AAAA2 /* SpottedApp.swift */; };
+		A05A5C5968EA4BF990162B4B /* MusicModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7510711EF4A16A20A9964 /* MusicModels.swift */; };
+		0693260CE4EC4D45A1880441 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11000024E32745C0840BA7D9 /* SpotifyService.swift */; };
+		215F3DDF339C407AAE6F52EF /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A571416C2F4F6295BD0475 /* AudioPlayerService.swift */; };
+		AC9CD99BA5184B0682E9A4F4 /* SocialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCD26A528704003A6345096 /* SocialStore.swift */; };
+		9DB24AA41DC54C4291835D5C /* NowPlayingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34A31DF31240138793BB0E /* NowPlayingBarView.swift */; };
+		0E843673B419461392D738EC /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF022F3A7F4D3AB7912AE1 /* PostCardView.swift */; };
+		389873036A3F4BEEA059028E /* CreatePostSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C3AD9B8E646EE9E5F687C /* CreatePostSheet.swift */; };
+		0227CCFDDA7D48E99D5F5B21 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06CBF4836424CEA9FB4226C /* FeedView.swift */; };
+		B4C1FD472C6742F4B5A5F772 /* CuratedFavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA27BF04E474F21926535BF /* CuratedFavoritesView.swift */; };
+		07C129C2E63F43E48B628097 /* SpotifyStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F18849E3EB408DBE8C340C /* SpotifyStatsView.swift */; };
+		353B435AF344492C8B31791A /* RankWhileListeningSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C76F40ABDD4F0395F57ABA /* RankWhileListeningSheet.swift */; };
+		8748028BB864421DA64E1595 /* RankingsHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85927F36EE48D1A72AA81A /* RankingsHubView.swift */; };
+		C95075B7CAD8445C854B41B5 /* ExploreFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04905A06326F432EB6BEE1E1 /* ExploreFriendsView.swift */; };
+		E145ADF48A2B48668669DF11 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A38F9CE84497B892E6732 /* ProfileView.swift */; };
+		9FBD53941A554B16B3037C8B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504B81765B04DA788026F9D /* MainTabView.swift */; };
+		4861103D253440B89D978672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28ED5634761A4A26832BC556 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0D048CD13C74FA8978D73BC /* Spotted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3988D83C9A364CAB839AAAA2 /* SpottedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SpottedApp.swift"; path = "Spotted/App/SpottedApp.swift"; sourceTree = "<group>"; };
+		18F7510711EF4A16A20A9964 /* MusicModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MusicModels.swift"; path = "Spotted/Models/MusicModels.swift"; sourceTree = "<group>"; };
+		11000024E32745C0840BA7D9 /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SpotifyService.swift"; path = "Spotted/Services/SpotifyService.swift"; sourceTree = "<group>"; };
+		02A571416C2F4F6295BD0475 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AudioPlayerService.swift"; path = "Spotted/Services/AudioPlayerService.swift"; sourceTree = "<group>"; };
+		CBCD26A528704003A6345096 /* SocialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SocialStore.swift"; path = "Spotted/ViewModels/SocialStore.swift"; sourceTree = "<group>"; };
+		5E34A31DF31240138793BB0E /* NowPlayingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NowPlayingBarView.swift"; path = "Spotted/Views/Components/NowPlayingBarView.swift"; sourceTree = "<group>"; };
+		46AF022F3A7F4D3AB7912AE1 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PostCardView.swift"; path = "Spotted/Views/Feed/PostCardView.swift"; sourceTree = "<group>"; };
+		911C3AD9B8E646EE9E5F687C /* CreatePostSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CreatePostSheet.swift"; path = "Spotted/Views/Feed/CreatePostSheet.swift"; sourceTree = "<group>"; };
+		A06CBF4836424CEA9FB4226C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FeedView.swift"; path = "Spotted/Views/Feed/FeedView.swift"; sourceTree = "<group>"; };
+		DCA27BF04E474F21926535BF /* CuratedFavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CuratedFavoritesView.swift"; path = "Spotted/Views/MusicStats/CuratedFavoritesView.swift"; sourceTree = "<group>"; };
+		C9F18849E3EB408DBE8C340C /* SpotifyStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SpotifyStatsView.swift"; path = "Spotted/Views/MusicStats/SpotifyStatsView.swift"; sourceTree = "<group>"; };
+		D5C76F40ABDD4F0395F57ABA /* RankWhileListeningSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RankWhileListeningSheet.swift"; path = "Spotted/Views/Rankings/RankWhileListeningSheet.swift"; sourceTree = "<group>"; };
+		3F85927F36EE48D1A72AA81A /* RankingsHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RankingsHubView.swift"; path = "Spotted/Views/Rankings/RankingsHubView.swift"; sourceTree = "<group>"; };
+		04905A06326F432EB6BEE1E1 /* ExploreFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExploreFriendsView.swift"; path = "Spotted/Views/Explore/ExploreFriendsView.swift"; sourceTree = "<group>"; };
+		8A1A38F9CE84497B892E6732 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProfileView.swift"; path = "Spotted/Views/Profile/ProfileView.swift"; sourceTree = "<group>"; };
+		8504B81765B04DA788026F9D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MainTabView.swift"; path = "Spotted/Views/MainTabView.swift"; sourceTree = "<group>"; };
+		28ED5634761A4A26832BC556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Spotted/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC6325A6F154BD4BF556291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEFADAEB00AE4325A1AE2A98 = {
+			isa = PBXGroup;
+			children = (
+				298396FABC934566B4C5DA00 /* Spotted */,
+				BC5CFAC03AFC419CB05D9DA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		298396FABC934566B4C5DA00 /* Spotted */ = {
+			isa = PBXGroup;
+			children = (
+				3988D83C9A364CAB839AAAA2 /* SpottedApp.swift */,
+				18F7510711EF4A16A20A9964 /* MusicModels.swift */,
+				11000024E32745C0840BA7D9 /* SpotifyService.swift */,
+				02A571416C2F4F6295BD0475 /* AudioPlayerService.swift */,
+				CBCD26A528704003A6345096 /* SocialStore.swift */,
+				5E34A31DF31240138793BB0E /* NowPlayingBarView.swift */,
+				46AF022F3A7F4D3AB7912AE1 /* PostCardView.swift */,
+				911C3AD9B8E646EE9E5F687C /* CreatePostSheet.swift */,
+				A06CBF4836424CEA9FB4226C /* FeedView.swift */,
+				DCA27BF04E474F21926535BF /* CuratedFavoritesView.swift */,
+				C9F18849E3EB408DBE8C340C /* SpotifyStatsView.swift */,
+				D5C76F40ABDD4F0395F57ABA /* RankWhileListeningSheet.swift */,
+				3F85927F36EE48D1A72AA81A /* RankingsHubView.swift */,
+				04905A06326F432EB6BEE1E1 /* ExploreFriendsView.swift */,
+				8A1A38F9CE84497B892E6732 /* ProfileView.swift */,
+				8504B81765B04DA788026F9D /* MainTabView.swift */,
+				28ED5634761A4A26832BC556 /* Assets.xcassets */,
+			);
+			path = ".";
+			sourceTree = "<group>";
+		};
+		BC5CFAC03AFC419CB05D9DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0D048CD13C74FA8978D73BC /* Spotted.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969CFBF9332E4A639A7BE878 /* Spotted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6DA3A2A9D945E1B357B0B4 /* Build configuration list for PBXNativeTarget "Spotted" */;
+			buildPhases = (
+				EDA7701DC9854C74A6D6CAA6 /* Sources */,
+				0EC6325A6F154BD4BF556291 /* Frameworks */,
+				0BC1097C85E0414EA60096BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotted;
+			productName = Spotted;
+			productReference = F0D048CD13C74FA8978D73BC /* Spotted.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C24CC47E88045B4B6085D11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					969CFBF9332E4A639A7BE878 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 71FD50D385344E7BB49FE5CA /* Build configuration list for PBXProject "Spotted" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEFADAEB00AE4325A1AE2A98;
+			productRefGroup = BC5CFAC03AFC419CB05D9DA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969CFBF9332E4A639A7BE878 /* Spotted */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC1097C85E0414EA60096BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4861103D253440B89D978672 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA7701DC9854C74A6D6CAA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3C15E73F85430A959763C2 /* SpottedApp.swift in Sources */,
+				A05A5C5968EA4BF990162B4B /* MusicModels.swift in Sources */,
+				0693260CE4EC4D45A1880441 /* SpotifyService.swift in Sources */,
+				215F3DDF339C407AAE6F52EF /* AudioPlayerService.swift in Sources */,
+				AC9CD99BA5184B0682E9A4F4 /* SocialStore.swift in Sources */,
+				9DB24AA41DC54C4291835D5C /* NowPlayingBarView.swift in Sources */,
+				0E843673B419461392D738EC /* PostCardView.swift in Sources */,
+				389873036A3F4BEEA059028E /* CreatePostSheet.swift in Sources */,
+				0227CCFDDA7D48E99D5F5B21 /* FeedView.swift in Sources */,
+				B4C1FD472C6742F4B5A5F772 /* CuratedFavoritesView.swift in Sources */,
+				07C129C2E63F43E48B628097 /* SpotifyStatsView.swift in Sources */,
+				353B435AF344492C8B31791A /* RankWhileListeningSheet.swift in Sources */,
+				8748028BB864421DA64E1595 /* RankingsHubView.swift in Sources */,
+				C95075B7CAD8445C854B41B5 /* ExploreFriendsView.swift in Sources */,
+				E145ADF48A2B48668669DF11 /* ProfileView.swift in Sources */,
+				9FBD53941A554B16B3037C8B /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1C07365F9C94B9793FBEA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9F19EEDBCC749638B333386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D318717C793745EAA16A0411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Spotted;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jatinsrivastava.spotted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5C2A94E605D47FF8E205608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Spotted;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jatinsrivastava.spotted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71FD50D385344E7BB49FE5CA /* Build configuration list for PBXProject "Spotted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C07365F9C94B9793FBEA4F /* Debug */,
+				A9F19EEDBCC749638B333386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6DA3A2A9D945E1B357B0B4 /* Build configuration list for PBXNativeTarget "Spotted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D318717C793745EAA16A0411 /* Debug */,
+				E5C2A94E605D47FF8E205608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C24CC47E88045B4B6085D11 /* Project object */;
+}
